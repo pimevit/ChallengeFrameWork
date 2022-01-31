@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-AppFrameWork.Service-F8AE10E6-522A-4160-885E-7B4459069842</UserSecretsId>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppFrameWork.Application\AppFrameWork.Application.csproj" />
+    <ProjectReference Include="..\AppFramWork.Domain\AppFramWork.Domain.csproj" />
+  </ItemGroup>
+</Project>
